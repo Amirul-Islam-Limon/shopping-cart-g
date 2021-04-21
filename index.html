@@ -119,7 +119,7 @@
             document.getElementById(pQuantityId).value = productQuantityValue - 1;
 
             let productPrice = document.getElementById(pPriceId).innerText;
-            let productPriceNumber = parseInt(mobilePrice);
+            let productPriceNumber = parseInt(productPrice);
             document.getElementById(pPriceId).innerText = productPriceNumber - pPrice;
 
             let subTotal = document.getElementById("subTotal").innerText;
